@@ -46,4 +46,40 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
+# Social / link-preview scrapery — jawnie dozwolone (podglądy linków)
+User-agent: facebookexternalhit
+Allow: /
+User-agent: facebookcatalog
+Allow: /
+User-agent: Facebot
+Allow: /
+User-agent: Twitterbot
+Allow: /
+User-agent: LinkedInBot
+Allow: /
+User-agent: Slackbot
+Allow: /
+User-agent: Slackbot-LinkExpanding
+Allow: /
+User-agent: WhatsApp
+Allow: /
+User-agent: TelegramBot
+Allow: /
+User-agent: Discordbot
+Allow: /
+User-agent: Pinterestbot
+Allow: /
+User-agent: redditbot
+Allow: /
+User-agent: Embedly
+Allow: /
+User-agent: vkShare
+Allow: /
+User-agent: SkypeUriPreview
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Iframely
+Allow: /
+
 Sitemap: https://jezyce-solacz.pl/sitemap.xml
