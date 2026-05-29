@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="13" fill="#15171b"/>
+  <!-- tory nad tunelem -->
+  <rect x="8" y="9" width="48" height="5" rx="2.5" fill="#e8e2d4"/>
+  <rect x="14" y="16" width="3" height="5" rx="1.2" fill="#8b8f98"/>
+  <rect x="30.5" y="16" width="3" height="5" rx="1.2" fill="#8b8f98"/>
+  <rect x="47" y="16" width="3" height="5" rx="1.2" fill="#8b8f98"/>
+  <!-- portal tunelu -->
+  <path d="M17 53 V35 a15 15 0 0 1 30 0 V53" fill="none" stroke="#d8362a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

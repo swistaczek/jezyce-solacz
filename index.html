@@ -13,7 +13,9 @@
 <link rel="alternate" hreflang="pl-pl" href="https://jezyce-solacz.pl/">
 <link rel="alternate" hreflang="x-default" href="https://jezyce-solacz.pl/">
 <meta name="theme-color" content="#15171b">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%2315171b'/><circle cx='32' cy='32' r='14' fill='%23d8362a'/></svg>">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate icon" href="/apple-touch-icon.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 <!-- Geo -->
 <meta name="geo.region" content="PL-WP">
@@ -178,6 +180,12 @@ footer a:hover{border-color:#fff}
 .voice__by{margin-top:auto;font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 @media(max-width:860px){.voices__grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.voices__grid>li{opacity:1;transform:none;animation:none}}
+.toast{position:fixed;left:16px;bottom:16px;z-index:60;width:min(320px,calc(100vw - 32px));background:#fff;border:1px solid var(--line);border-left:4px solid var(--signal);border-radius:8px;box-shadow:0 18px 50px -22px rgba(21,23,27,.55);padding:12px 14px;transform:translateY(170%);opacity:0;transition:transform .5s cubic-bezier(.2,.7,.2,1),opacity .45s;pointer-events:none}
+.toast.show{transform:translateY(0);opacity:1}
+.toast__t{font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--signal-deep);margin-bottom:4px}
+.toast__q{font-size:.9rem;color:#3a3d45;line-height:1.4}
+@media(max-width:620px){.toast{bottom:92px}}
+@media(prefers-reduced-motion:reduce){.toast{transition:opacity .3s}}
 .zoom{display:block;cursor:zoom-in;position:relative}
 .zoom::after{content:"⤢ powiększ";position:absolute;right:10px;bottom:10px;font-size:.74rem;font-weight:600;color:#fff;background:rgba(8,10,14,.62);padding:5px 9px;border-radius:3px;backdrop-filter:blur(3px)}
 .lb{display:none}
@@ -268,13 +276,13 @@ footer a:hover{border-color:#fff}
   <div class="wrap">
     <div class="eyebrow" style="color:var(--signal-deep)">Tak jest dziś</div>
     <h2 class="display">Obok już jest przejście — tyle że za wąskie</h2>
-    <p>Pod tą samą linią kolejową, przy <b>ul. Kościelnej</b>, istnieje dziś przejście pod torami. Problem w tym, że jest <b>bardzo wąskie</b>. Rowerzyści i piesi muszą się zatrzymywać i przepuszczać — <b>trudno się minąć</b>, a przejście z wózkiem dziecięcym jest praktycznie niemożliwe.</p>
-    <p>Nie chodzi więc o luksus, lecz o brakujące, <b>wygodne i bezpieczne</b> połączenie. Tak wygląda codzienność teraz — i tak mogłoby być po realizacji przejścia z wizualizacji u góry strony.</p>
+    <p>Najbliższe przejście pod torami jest dziś przy <b>ul. Kościelnej</b> — pod <b>historycznym wiaduktem</b>. Ruch rowerowy jest tam zaplanowany dobrze (osobna sygnalizacja), ale <b>chodnik dla pieszych jest bardzo wąski</b>: tak ciasny, że wygodnie przejść można właściwie tylko w jedną stronę naraz.</p>
+    <p>Najtrudniej mają <b>rodzice z wózkami, dzieci i osoby z niepełnosprawnościami</b>. Dlatego potrzebne jest <b>dodatkowe przejście dla pieszych</b> — wygodne i bezpieczne, takie jak na wizualizacji u góry strony.</p>
     <figure style="margin:28px 0 0;max-width:64ch">
       <a class="zoom" href="#lb-koscielna" aria-label="Powiększ zdjęcie wąskiego przejścia przy ul. Kościelnej">
         <img src="problem-koscielna.webp" width="1280" height="720" loading="lazy" decoding="async"
           style="width:100%;height:auto;display:block;border-radius:6px;border:1px solid var(--line);box-shadow:0 14px 40px -26px rgba(21,23,27,.6)"
-          alt="Wąskie przejście dla pieszych i rowerów pod torami kolejowymi przy ul. Kościelnej w Poznaniu. W ciasnym korytarzu wzdłuż metalowej barierki ścisnęli się tata z dziećmi, wózek dziecięcy i rower cargo — nie da się swobodnie minąć.">
+          alt="Wąski chodnik dla pieszych pod historycznym wiaduktem kolejowym przy ul. Kościelnej w Poznaniu. W ciasnym przejściu wzdłuż metalowej barierki tata z dziećmi i wózkiem ledwo się mieszczą — trudno się minąć.">
       </a>
       <figcaption style="margin-top:10px;font-size:.85rem;color:var(--muted);line-height:1.5">
         Autentyczne zdjęcie (nie wizualizacja AI) — istniejące wąskie przejście pod torami przy ul. Kościelnej. Twarze zasłonięto dla ochrony prywatności.
@@ -285,7 +293,7 @@ footer a:hover{border-color:#fff}
 <a href="#_" id="lb-koscielna" class="lb" aria-hidden="true">
   <span class="lb__x" aria-hidden="true">×</span>
   <img src="problem-koscielna-full.webp" width="2000" height="1125"
-    alt="Powiększenie: wąskie przejście pod torami przy ul. Kościelnej w Poznaniu — tata z dziećmi, wózek i rower cargo ledwo mieszczą się w ciasnym korytarzu wzdłuż barierki.">
+    alt="Powiększenie: wąski chodnik dla pieszych pod historycznym wiaduktem przy ul. Kościelnej w Poznaniu — tata z dziećmi i wózkiem ledwo mieszczą się w ciasnym przejściu wzdłuż barierki.">
 </a>
 
 <section class="prose">
@@ -319,12 +327,17 @@ footer a:hover{border-color:#fff}
     <h2 id="voices-h" class="display">Dlaczego to dla nich ważne</h2>
     <p class="voices__intro">Tak odpowiadają popierający w pytaniu „Dlaczego to dla Ciebie ważne?" w formularzu. Wypowiedzi są autentyczne i anonimowe.</p>
     <ul class="voices__grid">
-      <li style="--i:0"><figure class="voice"><blockquote class="voice__q">Bezpieczeństwo i szybkość przejścia/przejazdu dla pieszych i rowerzystów!</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
-      <li style="--i:1"><figure class="voice"><blockquote class="voice__q">Chcę szybko dostać się do parku Sołackiego z dziećmi.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
-      <li style="--i:2"><figure class="voice"><blockquote class="voice__q">Aktualne przejście na Kościelnej jest okropne.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
-      <li style="--i:3"><figure class="voice"><blockquote class="voice__q">Mieszkam obok, ułatwi to komunikację.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
+      <li style="--i:0"><figure class="voice"><blockquote class="voice__q">Poprawa bezpieczeństwa pieszych — dotychczasowe przejście pod wiaduktem na ul. Kościelnej jest bardzo ciasne i umożliwia ruch właściwie tylko w jedną stronę, bo jest za wąskie, by komfortowo się minąć.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
+      <li style="--i:1"><figure class="voice"><blockquote class="voice__q">Bezpieczeństwo i szybkość przejścia/przejazdu dla pieszych i rowerzystów!</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
+      <li style="--i:2"><figure class="voice"><blockquote class="voice__q">Chcę szybko dostać się do parku Sołackiego z dziećmi.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
+      <li style="--i:3"><figure class="voice"><blockquote class="voice__q">Aktualne przejście na Kościelnej jest okropne.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
       <li style="--i:4"><figure class="voice"><blockquote class="voice__q">Mieszkam dokładnie w miejscu, gdzie powinno być przejście.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
-      <li style="--i:5"><figure class="voice"><blockquote class="voice__q">Będę mieszkańcem osiedla Goplana, to byłoby duże ułatwienie.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
+      <li style="--i:5"><figure class="voice"><blockquote class="voice__q">Poruszam się rowerem na tym odcinku i zdecydowanie sprawiłoby to bezpieczniejszą trasę.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
+      <li style="--i:6"><figure class="voice"><blockquote class="voice__q">Mieszkam obok, ułatwi to komunikację.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
+      <li style="--i:7"><figure class="voice"><blockquote class="voice__q">Oszczędność czasu i omijanie ruchu samochodowego.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
+      <li style="--i:8"><figure class="voice"><blockquote class="voice__q">Drogi i przejścia są potrzebne, dla rozwoju dzielnicy.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
+      <li style="--i:9"><figure class="voice"><blockquote class="voice__q">Będę mieszkańcem osiedla Goplana, to byłoby duże ułatwienie.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
+      <li style="--i:10"><figure class="voice"><blockquote class="voice__q">Wygoda i bezpieczeństwo.</blockquote><figcaption class="voice__by">Popierający/a</figcaption></figure></li>
     </ul>
   </div>
 </section>
@@ -400,12 +413,40 @@ footer a:hover{border-color:#fff}
   </div>
 </footer>
 
+<div class="toast" id="toast" role="status" aria-live="polite" aria-hidden="true">
+  <div class="toast__t">Głos popierających</div>
+  <div class="toast__q" id="toast-q"></div>
+</div>
+
 <div class="sticky">
   <a class="btn btn--primary" href="https://forms.gle/ArwnA9HsqTZWteWM6" target="_blank" rel="noopener">Popieram — to 30 sekund</a>
   <small>Otwiera formularz Google · imię + e-mail · bez zobowiązań</small>
 </div>
 
 <script>
+/* Toast: losowo pokazuje PRAWDZIWE, anonimowe głosy popierających (bez zmyślonych nazwisk/„przed chwilą"). */
+(function(){
+  var el=document.getElementById('toast'),q=document.getElementById('toast-q');
+  if(!el||!q)return;
+  var quotes=[
+    'Aktualne przejście na Kościelnej jest okropne.',
+    'Mieszkam obok, ułatwi to komunikację.',
+    'Chcę szybko dostać się do parku Sołackiego z dziećmi.',
+    'Mieszkam dokładnie w miejscu, gdzie powinno być przejście.',
+    'Poruszam się rowerem na tym odcinku — byłaby bezpieczniejsza trasa.',
+    'Oszczędność czasu i omijanie ruchu samochodowego.',
+    'Będę mieszkańcem osiedla Goplana — duże ułatwienie.',
+    'Wygoda i bezpieczeństwo.'
+  ];
+  for(var i=quotes.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=quotes[i];quotes[i]=quotes[j];quotes[j]=t;}
+  var idx=0;
+  function rnd(a,b){return a+Math.random()*(b-a);}
+  function hide(){el.classList.remove('show');el.setAttribute('aria-hidden','true');setTimeout(next,rnd(15000,27000));}
+  function show(){q.textContent=quotes[idx%quotes.length];idx++;el.classList.add('show');el.setAttribute('aria-hidden','false');setTimeout(hide,6000);}
+  function next(){ if(document.hidden){setTimeout(next,9000);return;} show(); }
+  setTimeout(next,rnd(6000,11000));
+})();
+
 document.getElementById('share').addEventListener('click',function(e){
   if(navigator.share){
     e.preventDefault();
