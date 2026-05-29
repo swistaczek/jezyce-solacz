@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Sans:wght@500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+.card{position:relative;width:1080px;height:1920px;font-family:"IBM Plex Sans",sans-serif;color:#fff;isolation:isolate;display:flex;flex-direction:column;justify-content:center}
+.bg{position:absolute;inset:0;z-index:-2;background:#1b1f25 url("../../hero/hero-07.webp") center 40%/cover no-repeat}
+.veil{position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(15,17,21,.62) 0%,rgba(15,17,21,.30) 30%,rgba(15,17,21,.45) 55%,rgba(15,17,21,.80) 80%,rgba(15,17,21,.97) 100%)}
+.top{position:absolute;top:64px;left:64px;display:flex;align-items:center;gap:16px;font-weight:600;font-size:30px}
+.dot{width:24px;height:24px;border-radius:50%;background:#d8362a;box-shadow:0 0 0 8px rgba(216,54,42,.30)}
+.ai{position:absolute;top:74px;right:64px;font-size:20px;font-weight:500;letter-spacing:.04em;opacity:.65;text-transform:uppercase}
+.body{padding:0 70px;text-align:center;display:flex;flex-direction:column;align-items:center}
+.kicker{display:inline-block;background:#d8362a;font-weight:600;font-size:26px;letter-spacing:.12em;text-transform:uppercase;padding:13px 26px;border-radius:2px;margin-bottom:38px}
+h1{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:150px;line-height:.9;letter-spacing:-.03em;text-shadow:0 4px 34px rgba(0,0,0,.55)}
+.sub{margin-top:36px;font-size:40px;font-weight:500;color:#f1ece2;max-width:22ch;line-height:1.3}
+.dom{margin-top:56px;display:inline-block;background:#fff;color:#15171b;font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:66px;letter-spacing:-.01em;padding:24px 50px;border-radius:8px}
+/* strefa swipe-up / naklejki link u dołu */
+.swipe{position:absolute;left:0;right:0;bottom:130px;text-align:center}
+.swipe .arrow{font-size:60px;line-height:1;margin-bottom:10px;animation:none}
+.swipe .hint{display:block;font-size:34px;font-weight:600;letter-spacing:.04em;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.swipe .sub2{display:block;margin-top:8px;font-size:24px;font-weight:500;color:#ffd9d4}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="bg"></div>
+  <div class="veil"></div>
+  <div class="top"><span class="dot"></span><span>Jeżyce ↔ Sołacz</span></div>
+  <div class="ai">wizualizacja AI</div>
+  <div class="body">
+    <span class="kicker">To zajmuje 30 sekund</span>
+    <h1>Poprzyj<br>inicjatywę</h1>
+    <p class="sub">Podpisz poparcie dla przejścia pieszo-rowerowego pod torami linii 351.</p>
+    <span class="dom">jezyce-solacz.pl</span>
+  </div>
+  <div class="swipe">
+    <div class="arrow">↑</div>
+    <span class="hint">PRZESUŃ W GÓRĘ / KLIKNIJ LINK</span>
+    <span class="sub2">naklejka „Link" w tym miejscu</span>
+  </div>
+</div>
+</body>
+</html>

@@ -12,7 +12,7 @@
 ## Linki
 - Strona główna: https://jezyce-solacz.pl/
 - Formularz poparcia (Google Forms): https://forms.gle/ArwnA9HsqTZWteWM6
-- Dossier (analiza MPZP, linia 351, precedensy PBO): https://swistaczek.github.io/poznan/research/planowanie-przestrzenne/jezyce/
+- Analiza i źródła (MPZP, linia 351, precedensy PBO): https://swistaczek.github.io/poznan/research/planowanie-przestrzenne/jezyce/
 
 ## Uwaga
 Grafiki na stronie to wizualizacje poglądowe (generowane AI), nie projekt techniczny. Dane z formularza przetwarzane są na podstawie zgody (RODO art. 6 ust. 1 lit. a) wyłącznie do prowadzenia tej inicjatywy.

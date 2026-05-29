@@ -15,7 +15,7 @@ GitHub Pages (branch `main`, katalog `/`). Docelowo domena **jezyce-solacz.pl** 
 ## Powiązania
 
 - Formularz poparcia: https://forms.gle/ArwnA9HsqTZWteWM6
-- Dossier (plan MPZP, linia 351, precedensy): https://swistaczek.github.io/poznan/research/planowanie-przestrzenne/jezyce/
+- Fakty i źródła (plan MPZP, linia 351, precedensy): https://swistaczek.github.io/poznan/research/planowanie-przestrzenne/jezyce/
 
 ## Uwaga
 
