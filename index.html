@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Połączmy Jeżyce z Sołaczem — przejście pod torami</title>
+<meta name="description" content="Bezpieczne przejście pieszo-rowerowe pod torami przy ul. św. Wawrzyńca. Miasto wpisało je do planu w 2024 r. — wciąż go nie ma. Poprzyj inicjatywę.">
+
+<!-- Losowy wariant grafiki hero przy każdym wejściu (12 wizualizacji). Ustawiane w head → bez mignięcia. -->
+<script>(function(){var n=("0"+(1+Math.floor(Math.random()*12))).slice(-2);document.documentElement.style.setProperty('--hero','url("hero/hero-'+n+'.jpg")');})();</script>
+
+<!-- Open Graph / FB -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Inicjatywa obywatelska · Jeżyce ↔ Sołacz">
+<meta property="og:url" content="https://jezyce-solacz.pl/">
+<meta property="og:title" content="Połączmy Jeżyce z Sołaczem — przejście pod torami">
+<meta property="og:description" content="Przejście pieszo-rowerowe pod torami przy ul. św. Wawrzyńca jest w planie miasta od 2024 r. Wciąż go nie ma. Poprzyj — to 30 sekund.">
+<meta property="og:image" content="https://jezyce-solacz.pl/hero.jpg">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="1067">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Połączmy Jeżyce z Sołaczem — przejście pod torami">
+<meta name="twitter:description" content="Przejście pieszo-rowerowe pod torami przy ul. św. Wawrzyńca. W planie od 2024, wciąż go nie ma. Poprzyj.">
+<meta name="twitter:image" content="https://jezyce-solacz.pl/hero.jpg">
+<link rel="canonical" href="https://jezyce-solacz.pl/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --ink:#15171b;
+  --paper:#f3efe6;
+  --paper-2:#e8e2d4;
+  --signal:#d8362a;
+  --signal-deep:#a82318;
+  --rail:#2b3038;
+  --sky:#3b6ea5;
+  --muted:#5d6068;
+  --line:rgba(21,23,27,.14);
+  --shadow:0 18px 50px -22px rgba(21,23,27,.5);
+  --maxw:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"IBM Plex Sans",system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.04;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:clamp(20px,5vw,48px)}
+a{color:inherit}
+.display{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;line-height:.98;letter-spacing:-.02em}
+
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;color:#fff;isolation:isolate}
+.hero__img{position:absolute;inset:0;z-index:-2;background:#1b1f25 var(--hero,url("hero.jpg")) center 38%/cover no-repeat}
+.hero__veil{position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(15,17,21,.55) 0%,rgba(15,17,21,.12) 32%,rgba(15,17,21,.30) 60%,rgba(15,17,21,.88) 100%)}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0}
+.brand{display:flex;align-items:center;gap:11px;font-weight:600;font-size:.86rem;letter-spacing:.02em}
+.brand .dot{width:12px;height:12px;border-radius:50%;background:var(--signal);box-shadow:0 0 0 4px rgba(216,54,42,.28)}
+.brand small{opacity:.82;font-weight:500}
+.toplink{font-size:.82rem;text-decoration:none;opacity:.85;border-bottom:1px solid transparent;padding-bottom:2px;transition:.2s}
+.toplink:hover{opacity:1;border-color:rgba(255,255,255,.6)}
+.hero__body{margin-top:auto;padding-bottom:clamp(36px,7vh,84px)}
+.kicker{display:inline-flex;align-items:center;gap:10px;font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.16em;background:var(--signal);color:#fff;padding:7px 14px;border-radius:2px;box-shadow:var(--shadow);transform:translateY(18px);opacity:0;animation:rise .7s .05s cubic-bezier(.2,.7,.2,1) forwards}
+h1{font-size:clamp(2.6rem,8.4vw,6rem);margin:.32em 0 .28em;max-width:14ch;text-shadow:0 2px 30px rgba(0,0,0,.35);transform:translateY(22px);opacity:0;animation:rise .8s .14s cubic-bezier(.2,.7,.2,1) forwards}
+h1 em{font-style:normal;color:#ffd9d4;text-decoration:underline;text-decoration-color:var(--signal);text-underline-offset:8px;text-decoration-thickness:5px}
+.lede{font-size:clamp(1.05rem,2.4vw,1.4rem);max-width:46ch;color:#f1ece2;font-weight:400;transform:translateY(22px);opacity:0;animation:rise .8s .26s cubic-bezier(.2,.7,.2,1) forwards}
+.lede b{font-weight:600;color:#fff}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px;transform:translateY(22px);opacity:0;animation:rise .8s .4s cubic-bezier(.2,.7,.2,1) forwards}
+.btn{display:inline-flex;align-items:center;gap:10px;font:inherit;font-weight:600;font-size:1.02rem;padding:15px 26px;border-radius:3px;text-decoration:none;cursor:pointer;border:0;transition:transform .15s,box-shadow .2s,background .2s}
+.btn--primary{background:var(--signal);color:#fff;box-shadow:var(--shadow)}
+.btn--primary:hover{background:var(--signal-deep);transform:translateY(-2px)}
+.btn--ghost{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.5);backdrop-filter:blur(6px)}
+.btn--ghost:hover{background:rgba(255,255,255,.2);transform:translateY(-2px)}
+.btn--dark{background:var(--ink);color:var(--paper)}
+.btn--dark:hover{background:#000;transform:translateY(-2px)}
+.btn svg{width:18px;height:18px}
+@keyframes rise{to{transform:translateY(0);opacity:1}}
+
+.facts{background:var(--rail);color:var(--paper);padding:clamp(56px,9vw,104px) 0;position:relative}
+.facts__head{max-width:30ch;margin-bottom:46px}
+.eyebrow{font-size:.78rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--signal);margin-bottom:14px}
+.facts h2{font-size:clamp(1.7rem,4vw,2.7rem);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.12)}
+.card{background:var(--rail);padding:30px 26px 34px;display:flex;flex-direction:column;gap:12px;min-height:230px}
+.card .num{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:2.8rem;line-height:1;color:var(--signal)}
+.card h3{font-size:1.16rem;font-weight:600;color:#fff}
+.card p{font-size:.96rem;color:#c9ccd2}
+
+.aim{padding:clamp(56px,9vw,104px) 0;position:relative;overflow:hidden}
+.aim::after{content:"";position:absolute;right:-12%;top:50%;transform:translateY(-50%);width:60vw;height:60vw;max-width:680px;max-height:680px;border-radius:50%;background:radial-gradient(circle at 30% 30%,rgba(216,54,42,.12),transparent 62%);pointer-events:none}
+.aim .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(28px,5vw,68px);align-items:center;position:relative}
+.aim h2{font-size:clamp(1.8rem,4.4vw,3rem);max-width:16ch;margin-bottom:18px}
+.aim h2 mark{background:linear-gradient(transparent 62%,rgba(216,54,42,.35) 0);color:inherit;padding:0 .05em}
+.aim p{font-size:1.08rem;color:#3a3d45;max-width:52ch;margin-bottom:14px}
+.steps{list-style:none;display:flex;flex-direction:column;gap:16px}
+.steps li{display:flex;gap:16px;align-items:flex-start;padding:18px 20px;background:#fff;border:1px solid var(--line);border-radius:5px;box-shadow:0 10px 30px -24px rgba(21,23,27,.6)}
+.steps .mark{flex:0 0 auto;width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-weight:700;font-family:"Bricolage Grotesque",sans-serif}
+.steps b{display:block;font-weight:600;margin-bottom:2px}
+.steps span{font-size:.94rem;color:var(--muted)}
+
+.band{background:var(--signal);color:#fff;padding:clamp(48px,8vw,92px) 0;text-align:center}
+.band h2{font-size:clamp(2rem,6vw,3.6rem);max-width:18ch;margin:0 auto .5em}
+.band p{max-width:40ch;margin:0 auto 28px;font-size:1.06rem;color:#ffe6e3}
+.band .cta-row{justify-content:center;animation:none;transform:none;opacity:1}
+
+footer{background:var(--ink);color:#b9bcc4;padding:54px 0 120px;font-size:.9rem}
+footer .wrap{display:grid;gap:26px}
+.foot-top{display:flex;flex-wrap:wrap;gap:20px 40px;justify-content:space-between;align-items:flex-start}
+footer a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.3)}
+footer a:hover{border-color:#fff}
+.foot-links{display:flex;flex-wrap:wrap;gap:10px 22px}
+.rodo{font-size:.8rem;color:#878b94;max-width:78ch;line-height:1.6;border-top:1px solid rgba(255,255,255,.12);padding-top:20px}
+
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;display:none;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:rgba(243,239,230,.9);backdrop-filter:blur(10px);border-top:1px solid var(--line)}
+.sticky .btn{width:100%;justify-content:center}
+
+@media(max-width:860px){.grid{grid-template-columns:1fr}.aim .wrap{grid-template-columns:1fr}.aim__media{order:-1}}
+@media(max-width:620px){.toplink{display:none}.sticky{display:block}footer{padding-bottom:128px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.kicker,h1,.lede,.cta-row{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero__img" role="img" aria-label="Wizualizacja przejścia pieszo-rowerowego pod torami: przejazd rowerowy, piesi, osoba na wózku"></div>
+  <div class="hero__veil"></div>
+  <div class="wrap" style="width:100%">
+    <div class="topbar">
+      <div class="brand"><span class="dot"></span><span>Inicjatywa obywatelska<br><small>Jeżyce ↔ Sołacz</small></span></div>
+      <a class="toplink" href="https://swistaczek.github.io/poznan/research/planowanie-przestrzenne/jezyce/">Dossier i źródła →</a>
+    </div>
+    <div class="hero__body">
+      <span class="kicker">Przejście pod torami · ul. św. Wawrzyńca</span>
+      <h1 class="display">Połączmy Jeżyce z&nbsp;<em>Sołaczem</em></h1>
+      <p class="lede">Bezpieczne przejście pieszo-rowerowe pod torami. <b>Miasto wpisało je do planu w 2024 r. — wciąż go nie ma.</b> Poprzyj inicjatywę. To 30 sekund.</p>
+      <div class="cta-row">
+        <a class="btn btn--primary" href="https://forms.gle/ArwnA9HsqTZWteWM6" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          Popieram
+        </a>
+        <a class="btn btn--ghost" id="share" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjezyce-solacz.pl%2F" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+          Udostępnij
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="facts">
+  <div class="wrap">
+    <div class="facts__head">
+      <div class="eyebrow">Dlaczego to ważne</div>
+      <h2 class="display">Tory dzielą dzielnice. Plan jest. Realizacji brak.</h2>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <span class="num">2024</span>
+        <h3>Już w planie miasta</h3>
+        <p>MPZP „Jeżyce-Północ" (uchwały A1 i A2) przewiduje przejście / tunel pod torami linii 351 w rejonie ul. św. Wawrzyńca i Poleskiej.</p>
+      </article>
+      <article class="card">
+        <span class="num">2025</span>
+        <h3>Dokumentacja w toku</h3>
+        <p>PKP PLK przygotowuje projekt przejścia. Mimo planu i dokumentacji mieszkańcy wciąż nie mają jak bezpiecznie przejść.</p>
+      </article>
+      <article class="card">
+        <span class="num">↔</span>
+        <h3>Bariera na co dzień</h3>
+        <p>Nasyp kolejowy odcina Jeżyce od Sołacza i Parku Sołackiego. Najbliższe bezpieczne przejście jest daleko, na obwodzie.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="aim">
+  <div class="wrap">
+    <div class="aim__text">
+      <div class="eyebrow" style="color:var(--signal)">Co robimy</div>
+      <h2 class="display">Chcemy, żeby miasto <mark>dokończyło to, co zaplanowało</mark>.</h2>
+      <p>Składamy projekt do Poznańskiego Budżetu Obywatelskiego i naciskamy na miasto oraz PKP PLK. Im więcej głosów poparcia, tym mocniejszy mandat społeczny i twardszy argument w rozmowie z urzędem.</p>
+      <p style="font-size:.95rem;color:var(--muted)">Twój podpis na formularzu nie jest jeszcze formalnym podpisem PBO — to deklaracja poparcia i kontakt, dzięki któremu damy znać, gdy ruszy zbiórka podpisów i głosowanie.</p>
+    </div>
+    <ol class="steps aim__media">
+      <li><span class="mark">1</span><div><b>Poprzyj</b><span>Zostaw imię i kontakt — 30 sekund.</span></div></li>
+      <li><span class="mark">2</span><div><b>Udostępnij</b><span>Wyślij link 3 sąsiadom. Liczy się skala.</span></div></li>
+      <li><span class="mark">3</span><div><b>Zagłosuj w PBO</b><span>Damy znać mailem, gdy ruszy głosowanie.</span></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2 class="display">Twój głos to argument.</h2>
+    <p>Każdy podpis przybliża przejście, na które Jeżyce i Sołacz czekają od lat.</p>
+    <div class="cta-row">
+      <a class="btn btn--dark" href="https://forms.gle/ArwnA9HsqTZWteWM6" target="_blank" rel="noopener">Popieram przejście</a>
+      <a class="btn btn--ghost" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjezyce-solacz.pl%2F" target="_blank" rel="noopener">Udostępnij na Facebooku</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="brand" style="color:#fff"><span class="dot"></span><span>Inicjatywa obywatelska<br><small style="color:#b9bcc4">Przejście pieszo-rowerowe Jeżyce ↔ Sołacz</small></span></div>
+      <nav class="foot-links">
+        <a href="https://forms.gle/ArwnA9HsqTZWteWM6" target="_blank" rel="noopener">Formularz poparcia</a>
+        <a href="https://swistaczek.github.io/poznan/research/planowanie-przestrzenne/jezyce/">Dossier: plan, linia, precedensy</a>
+        <a href="https://swistaczek.github.io/poznan/jezyce/">Strona inicjatywy</a>
+      </nav>
+    </div>
+    <p class="rodo">
+      Formularz poparcia prowadzony w Google Forms; dane (imię, e-mail) przetwarzane są na podstawie zgody (art. 6 ust. 1 lit. a RODO) wyłącznie do prowadzenia tej inicjatywy. Administrator i pełna klauzula — w formularzu.
+      Grafiki na stronie są wizualizacjami poglądowymi (ilustracje), nie projektem technicznym.
+    </p>
+  </div>
+</footer>
+
+<div class="sticky">
+  <a class="btn btn--primary" href="https://forms.gle/ArwnA9HsqTZWteWM6" target="_blank" rel="noopener">Popieram — to 30 sekund</a>
+</div>
+
+<script>
+document.getElementById('share').addEventListener('click',function(e){
+  if(navigator.share){
+    e.preventDefault();
+    navigator.share({
+      title:'Połączmy Jeżyce z Sołaczem',
+      text:'Przejście pieszo-rowerowe pod torami — poprzyj inicjatywę.',
+      url:'https://jezyce-solacz.pl/'
+    }).catch(function(){});
+  }
+});
+</script>
+</body>
+</html>
