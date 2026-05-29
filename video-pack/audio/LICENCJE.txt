@@ -1,0 +1,15 @@
+ATRYBUCJA MUZYKI / DŹWIĘKU UŻYTEGO W VIDEO PACKU
+=================================================
+
+Używaj wyłącznie utworów royalty-free / CC0 / CC BY (przy CC BY podaj autora).
+Dla każdego pliku audio wpisz poniżej:
+
+  plik:      bed-hopeful.mp3
+  tytuł:     [...]
+  autor:     [...]
+  źródło:    [URL]
+  licencja:  [Pixabay Content License / CC0 / CC BY 4.0 / ...]
+  data:      [RRRR-MM-DD pobrania]
+
+-------------------------------------------------
+(na razie brak — klipy renderowane bez podkładu)

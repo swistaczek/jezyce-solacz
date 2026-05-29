@@ -11,6 +11,7 @@
 
 ## Linki
 - Strona główna: https://jezyce-solacz.pl/
+- Dla mediów (fakty, cytaty, notatka prasowa, grafiki i wideo do pobrania): https://jezyce-solacz.pl/dla-mediow/
 - Formularz poparcia (Google Forms): https://forms.gle/ArwnA9HsqTZWteWM6
 - Analiza i źródła (MPZP, linia 351, precedensy PBO): https://swistaczek.github.io/poznan/research/planowanie-przestrzenne/jezyce/
 

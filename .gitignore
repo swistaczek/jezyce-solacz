@@ -1,0 +1,13 @@
+# Pliki pośrednie renderu wideo (klatki, segmenty)
+video-pack/tmp/
+
+# Audio — licencja zależna od źródła, dodawane ręcznie poza repo
+video-pack/audio/*.mp3
+video-pack/audio/*.wav
+video-pack/audio/*.m4a
+
+# Build kart cytatów — pośrednie HTML
+share-pack/cytaty/build/
+
+# System
+.DS_Store
