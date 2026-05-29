@@ -37,7 +37,7 @@ ffmpeg -y -i out/01-haslo-kenburns_1080x1920.mp4 -i audio/bed-hopeful.mp3 \
 ## Do dorobienia (storyboard gotowy)
 
 - **Klip B — `02-problem-rozwiazanie` (18 s, pion):** zdjęcie wąskiego tunelu (`problem-koscielna-full.webp`, zoom-in) → cięcie → render („A mogłoby tak"). Tekst on-screen: „Dziś jedyne przejście: tunel przy Kościelnej" / „Tak wąski, że dwa wózki się nie miną" / „W planie od 2024" / CTA. Pipeline jak A: overlay Chrome + zoompan na zdjęciu + xfade.
-- **Klip C — `03-cytaty` (~22 s, pion):** 4–5 prawdziwych, anonimowych cytatów (podpis = dzielnica) na przyciemnionych renderach; intro „Z 208 odpowiedzi mieszkańców:". Karty jak `share-pack/cytaty/` lub overlaye fade.
+- **Klip C — `03-cytaty` (~22 s, pion):** 4–5 prawdziwych, anonimowych cytatów (podpis = dzielnica) na przyciemnionych renderach; intro „Z 311 odpowiedzi mieszkańców:". Karty jak `share-pack/cytaty/` lub overlaye fade.
 
 ## Co automatyczne, co ręczne
 
