@@ -7,7 +7,7 @@ Poznań, [DATA]
 
 Nasyp linii kolejowej nr 351 (korytarz E59) odcina Jeżyce od Sołacza i Parku Sołackiego. Dziś jedyne przejście pod torami w pobliżu prowadzi pod historycznym wiaduktem przy ul. Kościelnej — wąskim, jednokierunkowym tunelem, w którym pieszy z wózkiem nie mija się swobodnie z rowerzystą. W sezonie wiosenno-letnim tworzą się tam kolejki.
 
-Inicjatywa obywatelska „Jeżyce ↔ Sołacz" zebrała 348 deklaracji poparcia, z czego 182 osoby dołączyły komentarz opisujący, dlaczego dodatkowe przejście jest potrzebne. Najczęściej powtarzają się: bezpieczeństwo dzieci jadących rowerem wzdłuż ruchliwej ul. Niestachowskiej, trudności rodziców z wózkami oraz osób z niepełnosprawnościami, a także codzienne nadkładanie drogi przy dojściu do Parku Sołackiego.
+Inicjatywa obywatelska „Jeżyce ↔ Sołacz" zebrała 364 deklaracje poparcia, z czego 191 osób dołączyło komentarz opisujący, dlaczego dodatkowe przejście jest potrzebne. Najczęściej powtarzają się: bezpieczeństwo dzieci jadących rowerem wzdłuż ruchliwej ul. Niestachowskiej, trudności rodziców z wózkami oraz osób z niepełnosprawnościami, a także codzienne nadkładanie drogi przy dojściu do Parku Sołackiego.
 
 Inicjatywa nie postuluje nowej inwestycji, lecz realizację tej, która już jest w dokumentach planistycznych. Grupa przygotowuje projekt do Poznańskiego Budżetu Obywatelskiego i apeluje do Miasta Poznania oraz PKP PLK o dokończenie zaplanowanego przejścia.
 
