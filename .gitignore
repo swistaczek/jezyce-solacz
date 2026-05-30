@@ -11,3 +11,8 @@ share-pack/cytaty/build/
 
 # System
 .DS_Store
+
+# edytor swap
+*.swp
+*.swo
+*~
