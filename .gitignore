@@ -9,6 +9,9 @@ video-pack/audio/*.m4a
 # Build kart cytatów — pośrednie HTML
 share-pack/cytaty/build/
 
+# Wersje scenariuszy/pism z danymi osobowymi (imię, nazwisko) — nigdy do repo
+**/_local/
+
 # System
 .DS_Store
 
