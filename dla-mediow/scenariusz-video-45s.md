@@ -18,7 +18,7 @@ Wersja **kompletna i samodzielna** (z przedstawieniem się) — gotowa do publik
 >
 > Dziś najbliższe dojście to wąski, jednokierunkowy tunel przy Kościelnej. Rodzic z wózkiem nie wyminie tam rowerzysty, a w sezonie ustawiają się kolejki.
 >
-> To nie pomysł jednej osoby — pod inicjatywą podpisało się już ponad pięćset osób, a prawie połowa dopisała własny powód.
+> To nie pomysł jednej osoby — pod inicjatywą podpisało się już ponad pięćset osób, a co druga dopisała własny powód.
 >
 > Bo miasto samo wpisało to przejście do planu już w dwa tysiące dwudziestym czwartym roku, a kolej zaczęła przygotowywać dokumentację. Od tego czasu w terenie nie zmieniło się nic.
 >
@@ -56,7 +56,7 @@ Liczby spisane słownie (dla lektora). Mów spokojnie, jeden oddech na blok, pau
 > Dziś najbliższe dojście to wąski, jednokierunkowy tunel przy Kościelnej — rodzic z wózkiem nie wyminie tam rowerzysty.
 
 **B3 — POPARCIE** · 0:14–0:22
-> To nie pomysł jednej osoby. Pod inicjatywą podpisało się ponad pięćset osób, a prawie połowa dopisała własny powód.
+> To nie pomysł jednej osoby. Pod inicjatywą podpisało się ponad pięćset osób, a co druga dopisała własny powód.
 
 **B4 — MANIFEST (oś czasu)** · 0:22–0:33
 > Miasto samo wpisało to przejście do planu już w dwa tysiące dwudziestym czwartym roku, a kolej zaczęła dokumentację. Od tego czasu w terenie nie zmieniło się nic.
@@ -103,7 +103,7 @@ B1 powstał z panelu 4 ekspertów; refren „jest w planie, nie ma w terenie" je
 
 - Dystans obejścia: **zmierz realnie przed nagraniem** (mapa: tunel Kościelna → najbliższy alternatywny przejazd). Jeśli wychodzi <1 km → mów „kilkaset metrów", nie „kilometr". Nie zmyślaj liczby na antenie.
 - „Najbliższe dojście" (nie „jedyne") — w pobliżu mogą być inne przejazdy; „najbliższe/najwygodniejsze" jest nie do obalenia.
-- Poparcie: **510 deklaracji, 252 komentarze** → mów „ponad 500", „prawie połowa". Nie zaokrąglaj w górę do „600".
+- Poparcie: **541 deklaracji, 272 komentarze** → mów „ponad 500", „co druga osoba" (272/541 = 50,3%, więc NIE „prawie połowa"). Nie zaokrąglaj w górę do „600".
 - Linia **351**, korytarz **E59**, zarządca **PKP PLK**. Przejście postulowane: rejon **ul. św. Wawrzyńca**; istniejący wąski tunel: **ul. Kościelna** (to dwa różne punkty — nie mylić).
 - Plan: **MPZP „Jeżyce-Północ", 2024**. Mów „w planie zagospodarowania od 2024".
 - „Dokumentacja kolejowa ruszyła" = PKP PLK przygotowuje dokumentację węzła od 2025. **NIE mów**, że „PKP ma 39 milionów na tunel Jeżyce" — 39 mln to dokumentacja całego Poznańskiego Węzła Kolejowego, nie tego przejścia. Prace węzła: po 2029.
